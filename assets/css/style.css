@@ -1178,6 +1178,11 @@ a.facebook-bg {
   color: #3b5998;
   border-color: #3b5998;
 }
+.github{
+    width:20px;
+    height: 20px;
+    border-color:black;
+}
 
 a.facebook-bg:hover{
   background-color: #3b5998;
@@ -1272,7 +1277,8 @@ a.linkedin-bg:hover {
  * Portfolio-item
  */
 .project-img {
-    height: 480px;
+    height: 400px;
+    width:400px;
 }
 
 .project-img + .project-img  {
@@ -1589,4 +1595,74 @@ a.linkedin-bg:hover {
 .section-map {
   height: 500px;
   width: 100%
+}
+
+.content {
+    padding: 16px;
+  }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+} 
+
+.latest{
+    margin-top:100px;
+}
+
+
+#projectImg{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.social-links{
+    margin-top:40px;
+}
+
+#table{
+    /* border: 1px solid black; */
+    width: 800px;
+    margin-bottom: 50px;
+    margin-top:50px;
+}
+
+#aboutMeWriting{
+    width:800px;
+    display: flex;
+    
+}
+#aboutMeIntro{
+    font-size:19px;
+    line-height:2;
+}
+
+#profileImg{
+    width:260px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+#socialMedia{
+    margin-top:20px;
+    margin-right:60px;
+}
+#contactInfo{
+    margin-right:40px;
+}
+#contactEmail{
+    margin-bottom: 30px;
+}
+
+#aboutMeTop{
+    margin-right:25px;
+}
+.aboutMe{
+    margin-top:50px;
 }

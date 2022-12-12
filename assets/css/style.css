@@ -801,11 +801,7 @@ html, body {
   z-index: 0;
 }
 
-.hero-content {
-    display: table-cell;
-    vertical-align: middle;
-    padding-top: 75px;
-}
+
 
 .hero-text {
     max-width: 890px;
@@ -1687,11 +1683,36 @@ a.linkedin-bg:hover {
     margin-top:50px;
 }
 
-/* .profile_oval{
+.profile_oval{
     width:220px;
     height: 270px;
-    position: relative;
+    /* position: relative; */
     z-index: 3;
-    right: 1150px;
-    top: 200px;
-} */
+    /* left: 500px; */
+    /* right: 1500px; */
+    /* top: 200px; */
+}
+
+.hero-content {
+    /* display: table-cell;
+    vertical-align: middle; */
+    padding-top: 75px;
+    /* position:absolute; */
+    /* display: flex; 
+    flex-direction: column; */
+    /* justify-content: center; */
+}
+.splash-content {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    margin-top:150px;
+}
+
+.splashImg{
+    position:absolute;
+}
+
+.hero-text{
+    margin-top:500px;
+}

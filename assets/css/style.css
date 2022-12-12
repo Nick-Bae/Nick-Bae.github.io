@@ -1686,3 +1686,12 @@ a.linkedin-bg:hover {
 .aboutMe{
     margin-top:50px;
 }
+
+.profile_oval{
+    width:220px;
+    height: 270px;
+    position: absolute;
+    z-index: 3;
+    right: 1150px;
+    top: 200px;
+}

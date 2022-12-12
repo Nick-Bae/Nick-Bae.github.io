@@ -1211,6 +1211,13 @@ a.linkedin-bg {
     width:20px;
     height: 20px;
 }
+
+.linkedinContact{
+    margin-right:10px;
+}
+.github1{
+    margin-right:10px;
+}
 a.linkedin-bg:hover {
   background-color: #007bb5;
 }
@@ -1653,7 +1660,7 @@ a.linkedin-bg:hover {
 }
 
 #profileImg{
-    width:260px;
+    width:280px;
     height: 300px;
     border-radius: 10px;
 }

@@ -1200,8 +1200,17 @@ a.pinterest:hover{
 a.linkedin-bg {
   color: #007bb5;
   border-color: #007bb5;
+  
 }
-
+.linkedin{
+    width:20px;
+    height: 20px;
+    color: #007bb5;
+}
+.angellist{
+    width:20px;
+    height: 20px;
+}
 a.linkedin-bg:hover {
   background-color: #007bb5;
 }

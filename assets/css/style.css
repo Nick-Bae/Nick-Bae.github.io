@@ -1722,16 +1722,28 @@ a.linkedin-bg:hover {
 }
 
 .usedSkill{
-    margin-top: 20px;
-    font-size:15px;
-    text-decoration: underline;
+    margin-top: 40px;
+    font-size:20px;
+    color:black;
+    /* text-decoration: underline; */
 
 }
-
+.skills{
+    margin:10px 0;
+}
 .description{
     text-decoration: underline;
 }
 
 .project-description, .usedSkillDetail{
     color: black;
+}
+
+.project-description{
+ font-size:28px;
+ margin: 20px 0;
+}
+
+.descriptionDetail{
+    font-size:15px;
 }

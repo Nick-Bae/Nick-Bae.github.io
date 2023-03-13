@@ -1720,3 +1720,18 @@ a.linkedin-bg:hover {
 .project-img{
     margin-bottom: 50px;
 }
+
+.usedSkill{
+    margin-top: 20px;
+    font-size:15px;
+    text-decoration: underline;
+
+}
+
+.description{
+    text-decoration: underline;
+}
+
+.project-description, .usedSkillDetail{
+    color: black;
+}
